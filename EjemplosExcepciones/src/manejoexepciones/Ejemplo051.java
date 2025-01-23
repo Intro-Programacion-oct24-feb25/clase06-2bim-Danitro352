@@ -28,6 +28,8 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+                //se pone la bandera aqui ya que esta despues de pasar los 
+                //posibles errores dados
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",
