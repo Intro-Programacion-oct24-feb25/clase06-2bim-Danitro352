@@ -35,6 +35,7 @@ public class Ejemplo12 {
 
                 System.out.printf("Existe un error de tipo %s\n",
                         inputMismatchException);
+                entrada.nextLine();
             } catch (ArithmeticException arithmeticException) {
 
                 System.out.println("Lo sentimos hay un error");
@@ -46,11 +47,12 @@ public class Ejemplo12 {
             }
 
         }
-       
+        for (i = 0; i < resultados.length; i++) {
+            System.out.printf("%d\n", resultados[i]);
 
         }
     }
-
+}
 /*Realizar un proceso repetitivo que permita realizar la división de 
         números ingresados por teclado; el resultado de cada división debe ir 
         almacenandose en cada posición del arreglo. Considerar las excepciones
